@@ -28,10 +28,11 @@ Close the file pointer and end the program.
 
 ## PROGRAM:
 ~~~
-# Developed by: Vignesh S 
-# Register no: 212223230240
+ program to find the number of words in a text file
+ Developed by : Vignesh S
+Register number :212223230240
 num=0
-with open("counttxt.txt","r") as f1:
+with open("story.txt","r") as f1:
     for i in f1:
         word=i.split()
         num += len(word)
@@ -39,8 +40,7 @@ print("The number of words are in the file is ",num)
 ~~~
 
 ### OUTPUT:
-![Screenshot 2024-05-10 193730](https://github.com/Vigneshvikiii/Word-Count/assets/147474483/64a1a66e-be87-4966-b33c-084c61aa64dc)
-
+![Screenshot 2024-05-11 110821](https://github.com/Vigneshvikiii/Word-Count/assets/147474483/7fbebbc3-c176-4692-bd73-922016f9319a)
 
 
 
